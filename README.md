@@ -4,7 +4,7 @@ A retro-style calculator inspired by the look and feel of classic 90s PC softwar
 
 ## Live Demo
 
-[Open Calculator](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)
+[Open Calculator](https://pgwhocodes.github.io/calculator/)
 
 ## Preview
 
