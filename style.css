@@ -1,0 +1,135 @@
+@font-face{
+    font-family: "Digital-7";
+    src: url('../fonts/digital-7.ttf') format('truetype');
+    ascent-override: 83%;
+    descent-override: 17%;
+    line-gap-override: 0;
+}
+
+body    {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #008080;
+}
+main  {
+    width: 40vh;
+    height: 51vh;
+    background-color: #D4D0C8;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    padding: 2vh;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #F4F3EF #404040 #404040 #F4F3EF;
+}
+#header {
+    height: 2.8vh;
+    width: 43vh;
+    color: white;
+    background-color: #000080;
+    padding: 0.6px;
+    margin: -1.7vh 0 0 -1.5vh;
+    font-size: 2vh;
+    font-family: "Digital-7";
+    display: flex;
+    align-items: center;
+}
+img {
+    height: 2.3vh;
+    width: 2.35vh;
+    margin: 0 4px 0 0.5px;
+}
+
+#display-box    {
+    height : 12vh;
+    border-style: solid;
+    border-width: 0.5vh;
+    border-color: #404040 #F4F3EF #F4F3EF #404040;
+    background-color: #3a7644;
+    display: flex;
+    align-items: center;
+}
+#display    {
+    display: flex;
+    justify-content: end;
+    direction: ltr;
+    align-items: center;
+    font-size: 14vh;
+    height : 12vh;
+    width: 38.5vh;
+    color: black;
+    background: transparent;
+    appearance: none;
+    font-family: "Digital-7";
+    overflow: hidden;
+    white-space: nowrap;
+}
+#display:focus{
+    outline: 0;
+}
+#btn-container  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+.row    {
+    display: flex;
+    column-gap: 1vh;
+    justify-content: center; 
+    align-items: center;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5.6vh;
+    width: 9.65vh;
+    padding: 0;
+    margin: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    font-size: 4vh;
+    font-family: "Digital-7";
+    color: #E65A28;
+    background-color: #D4D0C8;
+    border-style: solid;
+    border-width: 0.5vh;
+    border-color: #F4F3EF #404040 #404040 #F4F3EF;
+    border-radius: 2px;
+}
+#backspace {
+    width: 20.5vh;
+}
+.nums   {
+    color: black;
+}
+#equal  {
+    color: white;
+    background-color: #E65A28;
+    border-color: #FF8C5A #8C3818 #8C3818 #FF8C5A;
+}
+
+button:active   {
+    border-width: 0.6vh;
+    font-size: 3.5vh;
+    background-color: #bcb8b0;
+    border-color: #808080 black black #808080 ;
+}
+
+#equal:active   {
+    background-color: #cf4f21;
+    border-color: #8C3818 #511e09 #511e09 #8C3818 ;
+}
+
+@media (hover: hover) {
+    button:hover   {
+        background-color: #bcb8b0;
+    }
+    #equal:hover{
+        background-color: #cf4f21;
+    }
+}

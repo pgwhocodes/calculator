@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+
+        <main>
+            <div id="header">
+                <img src="image/calculator.png"><span>Calculator - 1.0</span>
+            </div>
+            <div id="display-box">
+                <div id="display">0</div>
+            </div>
+            <div id="btn-container">
+                <div class="row"><!--fl-->
+                    <button id="backspace"><==</button>
+                    <button class="opers">%</button>
+                    <button class="opers">/</button>
+                </div>
+                <div class="row"><!--sl-->
+                    <button class="nums">7</button>
+                    <button class="nums">8</button>
+                    <button class="nums">9</button>
+                    <button class="opers" id="mul">*</button>
+                </div>
+                <div class="row"><!--tl-->
+                    <button class="nums">4</button>
+                    <button class="nums">5</button>
+                    <button class="nums">6</button>
+                    <button class="opers" id="sub">-</button>
+                </div>
+                <div class="row"><!--fl-->
+                    <button class="nums">1</button>
+                    <button class="nums">2</button>
+                    <button class="nums">3</button>
+                    <button class="opers">+</button>
+                </div>
+                <div class="row"><!--fl-->
+                    <button id="clear">AC</button>
+                    <button class="nums">0</button>
+                    <button class="nums">.</button>
+                    <button id="equal">=</button>
+                </div>     
+            </div>       
+        </main>
+
+        <script src="logic.js"></script>
+    </body>
+</html>
