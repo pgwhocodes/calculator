@@ -6,10 +6,6 @@ A retro-style calculator inspired by the look and feel of classic 90s PC softwar
 
 [Open Calculator](https://pgwhocodes.github.io/calculator/)
 
-## Preview
-
-![Calculator Preview](screenshot.png)
-
 ## Features
 
 - Basic arithmetic operations
